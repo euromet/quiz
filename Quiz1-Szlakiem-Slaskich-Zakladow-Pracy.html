@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Quiz 1 - Szlakiem Śląskich Zakładów Pracy</title>
+	<script defer src="script.js"> </script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v6.0"></script>
+			<div id="result">
+			</div>
+			
+			<div id="coupondiv">
+				<p id="instrukcja"></p>
+				<a id="fblink" target="_blank" href="#" class="fb-xfbml-parse-ignore"><img id="coupon"></a>
+			</div>
+	
+
+
+		<div id="finalControls">
+			<div id="restartQuiz">
+				<a href="Quiz1-Szlakiem-Slaskich-Zakladow-Pracy.html"><button id="restart" class='final-btn'>Rozwiąż quiz jeszcze raz</button></a>
+			</div>
+			<div id="showanswers">
+				 <button id="show" class='final-btn'>Pokaż odpowiedzi</button>
+			</div>
+			<div id="hideanswers">
+				<button id="hide" class='final-btn'>Ukryj odpowiedzi</button>
+			</div>
+		</div>
+	
+            <button id="start-btn" class="start-btn"><img src="quiz - przód - mały.png"></button>
+      		
+        
+            <div id="question1" class="questions">1. Jakby posłali Cię w hucie po młotek do narzędziowni, to poszedłbyś po niego do: <br /> <br /></div> 
+            <div id="answers1" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer1" id='1a' onchange='enableb1()'><label id='l1a' for='1a'> A. Werkszteli</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer1" id='1b' onchange='enableb1()'><label class='correct' for='1b'> B. Ausgaby</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer1" id='1c' onchange='enableb1()'><label id='l1c' for='1c'> C. Badyhausu</label></input> <br /> <br />
+
+            </div>
+			<div id='btndiv1' class="btndiv"> <br /> 
+ 			<button id="next1-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question2" class="questions">2. Jakby posłali Cię po kibel sztromu do narzędziowi to: <br /> <br /></div> 
+            <div id="answers2" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer2" id='2a' onchange='enableb2()'><label id='l2a' for='2a'> A. Przyniósłbyś biksa szmyry</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer2" id='2b' onchange='enableb2()'><label id='l2b' for='2b'> B. Poprosił o loncetla</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer2" id='2c' onchange='enableb2()'><label class='correct' for='2c'> C. Ciepniesz afa i weźniesz sie za robota</label></input> <br /> <br />
+            </div>
+			<div id='btndiv2' class="btndiv"> <br />
+ 			<button id="next2-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question3" class="questions">3. Na hucie do drobnego transportu materiału między wydziałami używano:<br /> <br /></div> 
+            <div id="answers3" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer3" id='3a' onchange='enableb3()'><label id='l3a' for='3a'> A. Bager</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer3" id='3b' onchange='enableb3()'><label id='l3b' for='3b'> B. Kiper</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer3" id='3c' onchange='enableb3()'><label class='correct' for='3c'> C. Ajdeksa</label></input> <br /> <br />
+            </div>
+			<div id='btndiv3' class="btndiv"> <br />
+ 			<button id="next3-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question4" class="questions">4. Nakrętka 6-kątna metalowa po śląsku to:<br /> <br /></div> 
+            <div id="answers4" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer4" id='4a' onchange='enableb4()'><label id='l4a' for='4a'> A. Szajbka</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer4" id='4b' onchange='enableb4()'><label class='correct' for='4b'> B. Muterka</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer4" id='4c' onchange='enableb4()'><label id='l4c' for='4c'> C. Fyjdering</label></input> <br /> <br />
+            </div>
+			<div id='btndiv4' class="btndiv"> <br />
+ 			<button id="next4-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question5" class="questions">5. Plinik do metalu po śląsku to:<br /> <br /></div> 
+            <div id="answers5" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer5" id='5a' onchange='enableb5()'><label class='correct' for='5a'> A. Fajla</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer5" id='5b' onchange='enableb5()'><label id='l5b'for='5b'> B. Brecha</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer5" id='5c' onchange='enableb5()'><label id='l5c' for='5c'> C. Majzel</label></input> <br /> <br />
+            </div>
+			<div id='btndiv5' class="btndiv"> <br />
+ 			<button id="next5-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question6" class="questions">6. Suwmiarka po śląsku to:<br /> <br /></div> 
+            <div id="answers6" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer6" id='6a' onchange='enableb6()'><label id='l6a' for='6a'> A. Borkop</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer6" id='6b' onchange='enableb6()'><label class='correct' for='6b'> B. Sziblera</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer6" id='6c' onchange='enableb6()'><label id='l6c' for='6c'> C. Kerner</label></input> <br /> <br />
+            </div>
+			<div id='btndiv6' class="btndiv"> <br />
+ 			<button id="next6-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question7" class="questions">7. Wiór z materiału obrabianego na tokarce to:<br /> <br /></div> 
+            <div id="answers7" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer7" id='7a' onchange='enableb7()'><label class='correct' for='7a'> A. Szpyjna </label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer7" id='7b' onchange='enableb7()'><label id='l7b' for='7b'> B. Farfocel</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer7" id='7c' onchange='enableb7()'><label id='l7c' for='7c'> C. Knołtel</label></input> <br /> <br />
+            </div>
+			<div id='btndiv7' class="btndiv"> <br />
+ 			<button id="next7-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question8" class="questions">8. Gdyby murarz na budowie prosiłby o poziomicę, to podałbyś mu:<br /> <br /></div> 
+            <div id="answers8" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer8" id='8a' onchange='enableb8()'><label id='l8a' for='8a'> A. Colsztok</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer8" id='8b' onchange='enableb8()'><label class='correct' for='8b'> B. Waserwoga </label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer8" id='8c' onchange='enableb8()'><label id='l8c' for='8c'> C. Kara</label></input> <br /> <br />
+            </div>
+			<div id='btndiv8' class="btndiv"> <br />
+ 			<button id="next8-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question9" class="questions">9. Naczynie murarskie do mieszania zaprawy to:<br /> <br /></div> 
+            <div id="answers9" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer9" id='9a' onchange='enableb9()'><label id='l9a' for='9a'> A. Fyrlok</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer9" id='9b' onchange='enableb9()'><label id='l9b' for='9b'> B. Gleta</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer9" id='9c' onchange='enableb9()'><label class='correct' for='9c'> C. Kalfas</label></input> <br /> <br />
+            </div>
+			<div id='btndiv9' class="btndiv"> <br />
+ 			<button id="next9-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question10" class="questions">10. Do smołowania dachu jest używana:<br /> <br /></div> 
+            <div id="answers10" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer10" id='10a' onchange='enableb10()'><label class='correct' for='10a'> A. Tera</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer10" id='10b' onchange='enableb10()'><label id='l10b' for='10b'> B. Zilberbrołza</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer10" id='10c' onchange='enableb10()'><label id='l10c' for='10c'> C. Glyjta</label></input> <br /> <br />
+            </div>
+			<div id='btndiv10' class="btndiv"> <br />
+ 			<button id="next10-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question11" class="questions">11. Winda w kopalni po śląsku to:<br /> <br /></div> 
+            <div id="answers11" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer11" id='11a' onchange='enableb11()'><label class='correct' for='11a'> A. Szola</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer11" id='11b' onchange='enableb11()'><label id='l11b' for='11b'> B. Hołda</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer11" id='11c' onchange='enableb11()'><label id='l11c' for='11c'> C. Rolwaga</label></input> <br /> <br />
+            </div>
+			<div id='btndiv11' class="btndiv"> <br />
+ 			<button id="next11-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question12" class="questions">12. Sztygar na kopalni po śląsku to:<br /> <br /></div> 
+            <div id="answers12" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer12" id='12a' onchange='enableb12()'><label id='l12a' for='12a'> A. Kalfaktor</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer12" id='12b' onchange='enableb12()'><label id='l12b' for='12b'> B. Szlajfkorz</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer12" id='12c' onchange='enableb12()'><label class='correct' for='12c'> C. Sztajger</label></input> <br /> <br />
+            </div> 
+			<div id='btndiv12' class="btndiv"> <br />
+ 			<button id="next12-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question13" class="questions">13. Ubranie robocze po śląsku to:<br /> <br /></div> 
+            <div id="answers13" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer13" id='13a' onchange='enableb13()'><label id='l13a' for='13a'> A. Szwam</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer13" id='13b' onchange='enableb13()'><label id='l13b' for='13b'> B. Knefel</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer13" id='13c' onchange='enableb13()'><label class='correct' for='13c' > C. Arbajtancug</label></input> <br /> <br />
+            </div> 
+			<div id='btndiv13' class="btndiv"> <br />
+ 			<button id="next13-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question14" class="questions">14. Jednostka miary - 50 kg po śląsku to:<br /> <br /></div> 
+            <div id="answers14" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer14" id='14a' onchange='enableb14()'><label id='l14a' for='14a'> A. Kwaretka</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer14" id='14b' onchange='enableb14()'><label class='correct' for='14b'> B. Cetnor </label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer14" id='14c' onchange='enableb14()'><label id='l14c' for='14c'> C. Funt</label></input> <br /> <br />
+            </div>
+			<div id='btndiv14' class="btndiv"> <br />
+ 			<button id="next14-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question15" class="questions">15. W zakładowej stołówce zawsze na obiad wydawali:<br /> <br /></div> 
+            <div id="answers15" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer15" id='15a' onchange='enableb15()'><label class='correct' for='15a'> A. Flaps</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer15" id='15b' onchange='enableb15()'><label id='l15b' for='15b'> B. Natron</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer15" id='15c' onchange='enableb15()'><label id='l15c' for='15c'> C. Zalczojra</label></input> <br /> <br />
+            </div>
+			<div id='btndiv15' class="btndiv"> <br />
+ 			<button id="next15-btn" class="next-btn" disabled>Następne</button>
+			</div>
+			<div id="question16" class="questions">16. Według starego powiedzenia "ostatni gasi światło", czym wyłączyć światło:<br /> <br /></div> 
+            <div id="answers16" class="radio-grid"> 
+				<input type="radio" class="radio" name="answer16" id='16a' onchange='enableb16()'><label class='correct' for='16a'> A. Szalter</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer16" id='16b' onchange='enableb16()'><label id='l16b' for='16b'> B. Szteker</label></input> <br /> <br />
+				<input type="radio" class="radio" name="answer16" id='16c' onchange='enableb16()'><label id='l16c' for='16c'> C. Fasong</label></input> <br /> <br />
+            </div>
+			<div id='btndiv16' class="btndiv"> <br />
+ 			<button id="next16-btn" class="next-btn" disabled>Zakończ Quiz</button>
+			</div> <br /><br />
+		<div id="progress-container">
+			<div id='progress-bar'>
+				<div id="progress">	</div>
+			</div>
+		</div>
+</body>
+</html>
+
+
+
