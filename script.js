@@ -542,92 +542,92 @@ function showResult() {
 	
 	function showcoupon() {
 				
-			instrukcja.innerHTML = "Kliknij na kupon, aby udostępnić na Facebooku i odebrać rabat."
+			instrukcja.innerHTML = "Polub nasz fanpage, udostępnij wynik i quiz na swoim profilu na facebooku i odbierz swój rabat.<br /> <br /> Kliknij na kupon, aby udostępnić na Facebooku i odebrać rabat."
 		
 			if(score == 0) {
 				coupon.src = "coupons/0pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F0pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F0pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 1) {
 				coupon.src = "coupons/1pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F1pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F1pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 2) {
 				coupon.src = "coupons/2pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F2pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F2pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 3) {
 				coupon.src = "<coupons/3pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F3pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F3pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 4) {
 				coupon.src = "coupons/4pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F4pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F4pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 5) {
 				coupon.src = "coupons/5pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F5pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F5pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 6) {
 				coupon.src = "coupons/6pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F6pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F6pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 7) {
 				coupon.src = "coupons/7pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F7pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F7pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 8) {
 				coupon.src = "coupons/8pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F8pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F8pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 9) {
 				coupon.src = "coupons/9pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F9pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F9pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 10) {
 				coupon.src = "coupons/10pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F10pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F10pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 11) {
 				coupon.src = "coupons/11pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F11pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F11pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 12) {
 				coupon.src = "coupons/12pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F12pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F12pkt.png&amp;src=sdkpreparse");
 			}
 			if(score  == 13) {
 				coupon.src = "coupons/13pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F13pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F13pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 14) {
 				coupon.src = "coupons/14pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F14pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F14pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 15) {
 				coupon.src = "coupons/15pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F15pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F15pkt.png&amp;src=sdkpreparse");
 			}
 			if(score == 16) {
 				coupon.src = "coupons/16pkt.png";
 				coupondiv.style.display = 'inline-block';
-				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuro-met.pl%2Finformator%2Fslaski-slownik%2Fitem%2Fquiz-slaskie-quizy-techniczne%2Fquiz1-szlakiem-slaskich-zakladow-pracy%2Fcoupons%2F16pkt.png&amp;src=sdkpreparse");
+				fblink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feuromet.github.io%2Fquiz%2Fcoupons%2F16pkt.png&amp;src=sdkpreparse");
 			}
 		}
 	showcoupon();
