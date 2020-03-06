@@ -11,11 +11,13 @@ const progressContainer = document.getElementById('progress-container');
 const progressBar =document.getElementById('progress-bar');
 const progress = document.getElementById('progress');
 const finalControls = document.getElementById('finalControls');
+const fblinks = document.getElementById('fblinks');
 var coupondiv = document.getElementById('coupondiv');
 var coupon = document.getElementById('coupon');
 var fblink = document.getElementById('fblink');
 var instrukcja = document.getElementById('instrukcja');
 var coupontag = document.getElementById('coupontag');
+var couponlink = document.getElementById('couponlink');
 
 start.addEventListener('click', showQ1);
 
@@ -472,6 +474,7 @@ function showResult() {
 	show.style.display='inline-block';
 	finalControls.style.display='inline-block';
 	progress.style.width='800px';
+	fblinks.style.display='inline-block';
 	
 	if(c1.checked) {
 		score = score + 1;
@@ -543,94 +546,93 @@ function showResult() {
 	
 	function showcoupon() {
 				
-			instrukcja.innerHTML = "Polub nasz fanpage, udostępnij wynik i quiz na swoim profilu na facebooku i odbierz swój rabat.<br /> <br /> Kliknij na kupon, aby udostępnić na Facebooku i odebrać rabat."
-			fblink.style.display='inline-block';
+			fblinks.style.display='inline-block';
 		
 			if(score == 0) {
 				coupon.src = "coupons/0pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/0pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/0pkt.png");
 				
 			}
 			if(score == 1) {
 				coupon.src = "coupons/1pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/1pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/1pkt.png");
 			}
 			if(score == 2) {
 				coupon.src = "coupons/2pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/2pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/2pkt.png");
 			}
 			if(score == 3) {
 				coupon.src = "<coupons/3pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/3pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/3pkt.png");
 			}
 			if(score == 4) {
 				coupon.src = "coupons/4pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/4pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/4pkt.png");
 			}
 			if(score == 5) {
 				coupon.src = "coupons/5pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/5pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/5pkt.png");
 			}
 			if(score == 6) {
 				coupon.src = "coupons/6pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/6pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/6pkt.png");
 			}
 			if(score == 7) {
 				coupon.src = "coupons/7pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/7pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/7pkt.png");
 			}
 			if(score == 8) {
 				coupon.src = "coupons/8pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/8pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/8pkt.png");
 			}
 			if(score == 9) {
 				coupon.src = "coupons/9pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/9pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/9pkt.png");
 			}
 			if(score == 10) {
 				coupon.src = "coupons/10pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/10pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/10pkt.png");
 			}
 			if(score == 11) {
 				coupon.src = "coupons/11pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/11pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/11pkt.png");
 			}
 			if(score == 12) {
 				coupon.src = "coupons/12pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/12pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/12pkt.png");
 			}
 			if(score  == 13) {
 				coupon.src = "coupons/13pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/13pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/13pkt.png");
 			}
 			if(score == 14) {
 				coupon.src = "coupons/14pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/14pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/14pkt.png");
 			}
 			if(score == 15) {
 				coupon.src = "coupons/15pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/15pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/15pkt.png");
 			}
 			if(score == 16) {
 				coupon.src = "coupons/16pkt.png";
 				coupondiv.style.display = 'inline-block';
-				coupontag.setAttribute("content", "https://euromet.github.io/quiz/coupons/16pkt.png");
+				couponlink.setAttribute("href", "https://www.facebook.com/sharer/sharer.php?u=https://euromet.github.io/quiz/coupons/16pkt.png");
 			}
 			
 		}
